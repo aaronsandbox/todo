@@ -9,6 +9,7 @@
             "script": "bin/rails",
             "args": ["server"],
             "askParameters": true
+            "cwd": "${workspaceRoot}"
         },
         {
             "type": "rdbg",
