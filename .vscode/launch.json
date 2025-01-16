@@ -4,10 +4,10 @@
     "configurations": [
         {
             "type": "rdbg",
-            "name": "Debug current file with rdbg",
+            "name": "Rails server",
             "request": "launch",
-            "script": "${file}",
-            "args": [],
+            "script": "bin/rails",
+            "args": ["server"],
             "askParameters": true
         },
         {
