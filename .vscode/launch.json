@@ -8,7 +8,7 @@
             "request": "launch",
             "script": "bin/rails",
             "args": ["server"],
-            "askParameters": true
+            "askParameters": true,
             "cwd": "${workspaceRoot}"
         },
         {
