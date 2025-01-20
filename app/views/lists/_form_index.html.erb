@@ -11,15 +11,15 @@
       </div>
     <% end %>
   
-    <div>
-      <%= form.label :description, style: "display: block" %>
-      <%= form.text_field :description %>
+    <div class="form-group">
+      <% form.label :description, style: "display: block" %>
+      <%= form.text_field :description, class: "form-control" %>
     </div>
-    
+
   <br/>
   
-    <div>
-      <%= form.submit %>
+    <div class="form-group">
+      <%= form.submit "Add To-Do Item" %>
     </div>
   <% end %>
   
