@@ -21,13 +21,15 @@
     <%= stylesheet_link_tag :app, "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_include_tag "bootstrap.bundle", "data-turbo-track": "reload" %>
   </head>
 
   <body>
-  <div class="container">
-  <%= render 'flash' %>   
-  <%= yield %>
-  </div>
+    <div class="container">
+    <%= render 'flash' %>   
+    <%= yield %>
+    </div>
+    <%= javascript_include_tag "alert_reload", "data-turbo-track": "reload" %>
   </body>
 
 </html>
