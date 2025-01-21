@@ -1,5 +1,8 @@
 source "https://rubygems.org"
 
+# Specify the Ruby version to match your deployment environment
+ruby '3.2.3'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.0.1"
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
